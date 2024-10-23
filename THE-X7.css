@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header{
+    display: flex;
+    background-color: #000;
+    padding: 10px;
+    color: #ffffff;
+    gap: 20px;
+    
+}
+
+.logo{
+    height: 40px;
+    padding-top: 13px;
+}
+
+h1{
+    text-align: center;
+}
+
+.img-X7{
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+    background-size: cover;
+    padding: 30px;
+}
+
+.imide{
+    display: flex;
+}
+
+.qorrap{
+    width: 80px;
+    height: 200px;
+    margin: 80px;
+    display: inline;
+}
+
+.item{
+    font-size: 25px;
+    display: flex;
+    border: 2px solid black;
+}
+button{
+    width: 90px;
+    height: 50px;
+    transition: 0.3s;
+    background-color: #00ff2a;
+}
+button:hover{
+    background-color: #0073ff;
+}
+
+.qorap1{
+    background-color: #ffffff;
+}
+.qorap2{
+    background-color: rgb(0, 123, 255);
+}
+.qorap3{
+    background-color: #ffffff;
+}
+.qorap4{
+    background-color: rgb(0, 123, 255);
+}
+.qorap5{
+    background-color: #ffffff;
+}
+.qorap6{
+    background-color: rgb(0, 123, 255);
+}
+
+@media (min-width:375px) {
+    .qorrap{
+        grid-template-columns: auto;
+    }
+}
+@media (min-width:768px) {
+    .qorrap{
+        grid-template-columns: auto;
+    }
+}
+@media (min-width:1024px) {
+    .qorrap{
+        grid-template-columns: auto;
+    }   
+}
